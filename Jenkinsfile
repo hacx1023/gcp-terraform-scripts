@@ -2,7 +2,6 @@ pipeline {
     agent any
 
     environment {
-        # Optional: Terraform binary path if installed manually
         PATH = "/usr/local/bin/:$PATH"
     }
 
